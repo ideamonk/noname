@@ -1,0 +1,102 @@
+/*Reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,
+p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,
+em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,
+var,b,u,i,center,dl,dt,dd,ol,ul,li,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,
+td{margin:0;padding:0;border:0;outline:0;font-size:100%;
+vertical-align:baseline;}
+
+body{line-height:1;}
+ol,ul{list-style:none;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}:focus{outline:0;}
+ins{text-decoration:none;}
+del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0;}
+
+/* Text */
+body{font:87%/1.5 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;}
+a:focus{outline:1px dotted;}
+hr{border:0 #ccc solid;border-top-width:1px;clear:both;height:0;}
+h1{font-size:2.2em;}
+h2{font-size:2.1em;}
+h3{font-size:1.9em;}
+h4{font-size:1.7em;}
+h5{font-size:1.7em;}
+h6{font-size:1.7em;}
+ol{list-style:decimal}
+ul{list-style:disc}li{margin-left:30px;}
+p,dl,hr,h1,h2,h3,h4,h5,h6,ol,ul,
+pre,table,address,fieldset{margin-bottom:20px;}
+
+/* Fonts */
+@font-face {
+  font-family: Stenberg;
+  src: url(fonts/steni.ttf);
+}
+
+/* Custom */
+body{
+    background: #d9cdb6 url(images/background.png) repeat;
+    text-shadow:0px 1px 1px #fff;
+    -moz-text-shadow:0px 1px 1px #fff;
+}
+#wrapper {
+    width:950px;
+    margin:0px auto;
+    background: url(images/city.jpg) top center no-repeat;
+}
+#header{
+    padding-top:5px;
+    text-align:center;
+}
+#content{
+    margin-top:10px;
+    padding-top:20px;
+}
+#aside{
+    float:right;
+    width:300px;
+    padding:10px 10px 10px 0px;
+    /*border:1px solid red;*/
+}
+#leftside{
+    /*border:1px solid red;*/
+    float:left;
+    width:560px;
+    padding:10px;
+    padding-right:45px;
+    background: url(images/vshade.png) top right no-repeat;
+}
+h1, h2, h3, h4, h5 {
+    font-family:Stenberg;
+    text-shadow:0px 1px 1px #fff;
+    -moz-text-shadow:0px 1px 1px #fff;
+    margin-top:30px;
+    margin-bottom:5px;
+}
+.define, blockquote{
+    background: rgba(255,218,101,0.5);
+    padding:10px;
+    margin-bottom:20px;
+    border-radius:10px;
+    -moz-border-radius:10px;
+}
+p{
+    line-height:1.7em;
+}
+strong {
+    background:#ffffff;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    padding:1px 5px;
+    font-weight:normal;
+}
+#footer{
+    margin-top:240px;
+    padding-top:40px;
+    padding-bottom:10px;
+    background: url(images/footer-background.png) top left repeat-x;
+    clear:both;
+    text-align:center;
+}
