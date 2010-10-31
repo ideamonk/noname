@@ -100,3 +100,7 @@ strong {
     clear:both;
     text-align:center;
 }
+#footer a, #footer a:visited {
+    color:#555;
+    text-decoration:none;
+}
