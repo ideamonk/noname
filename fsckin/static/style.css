@@ -1,0 +1,60 @@
+/*Reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,
+p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,
+em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,
+var,b,u,i,center,dl,dt,dd,ol,ul,li,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,
+td{margin:0;padding:0;border:0;outline:0;font-size:100%;
+vertical-align:baseline;}
+
+body{line-height:1;}
+ol,ul{list-style:none;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}:focus{outline:0;}
+ins{text-decoration:none;}
+del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0;}
+
+/* Text */
+body{font:87%/1.5 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;}
+a:focus{outline:1px dotted;}
+hr{border:0 #ccc solid;border-top-width:1px;clear:both;height:0;}
+h1{font-size:2.2em;}
+h2{font-size:2.1em;}
+h3{font-size:1.9em;}
+h4{font-size:1.7em;}
+h5{font-size:1.7em;}
+h6{font-size:1.7em;}
+ol{list-style:decimal}
+ul{list-style:disc}li{margin-left:30px;}
+p,dl,hr,h1,h2,h3,h4,h5,h6,ol,ul,
+pre,table,address,fieldset{margin-bottom:20px;}
+
+/* Custom */
+body{
+    background: #000 url(images/evfs2.jpg) center -40px no-repeat;;
+}
+#wrapper {
+    min-width:800px;
+    margin:0px auto;
+    text-align:center;
+}
+#biggy {
+    margin:0px auto;
+    margin-top:100px;
+    color:#8EFF02;
+    font-size:3em;
+    font-family: monaco, monospace, "Courier New";
+    text-shadow:0px 0px 5px #000;
+    -moz-text-shadow:0px 0px 5px #000;
+}
+#biggy b{
+    font-weight:normal;
+    color:#aaffaa;
+}
+#social {
+    float:right;
+    position:fixed;
+    top:0px; right:0px;
+    padding-right:20px;
+    padding-top:20px;
+}
