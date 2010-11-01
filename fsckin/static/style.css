@@ -38,7 +38,7 @@ body{
     margin:0px auto;
     text-align:center;
 }
-#biggy {
+#biggy, #biggy:visited {
     margin:0px auto;
     margin-top:100px;
     color:#8EFF02;
@@ -46,7 +46,10 @@ body{
     font-family: monaco, monospace, "Courier New";
     text-shadow:0px 0px 5px #000;
     -moz-text-shadow:0px 0px 5px #000;
+    display:block;
+    text-decoration:none;
 }
+
 #biggy b{
     font-weight:normal;
     color:#aaffaa;
@@ -57,4 +60,7 @@ body{
     top:0px; right:0px;
     padding-right:20px;
     padding-top:20px;
+}
+#noname{
+    padding-top:160px;
 }
