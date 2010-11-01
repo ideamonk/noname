@@ -25,37 +25,40 @@
 					to change the situation.
 				</p>
 				<br />
-				<p class="widgets">
+				<p id="widgets">
 					<script src="http://widgets.twimg.com/j/2/widget.js"></script>
 					<script>
 					new TWTR.Widget({
 					  version: 2,
-					  type: 'profile',
-					  rpp: 4,
+					  type: 'search',
+					  search: 'nonameconf',
 					  interval: 6000,
+					  title: 'NonameConf',
+					  subject: 'Live!',
 					  width: 272,
-					  height: 220,
+					  height: 230,
 					  theme: {
 					    shell: {
-					      background: '#403331',
+					      background: '#29231e',
 					      color: '#ffffff'
 					    },
 					    tweets: {
-					      background: '#2b2520',
+					      background: '#3d3230',
 					      color: '#ffffff',
-					      links: '#ffb805'
+					      links: '#ffab19'
 					    }
 					  },
 					  features: {
 					    scrollbar: false,
-					    loop: false,
+					    loop: true,
 					    live: true,
 					    hashtags: true,
 					    timestamp: true,
 					    avatars: true,
-					    behavior: 'all'
+					    toptweets: true,
+					    behavior: 'default'
 					  }
-					}).render().setUser('nonameconf').start();
+					}).render().start();
 					</script>
 				</p>
 				<p>

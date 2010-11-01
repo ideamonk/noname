@@ -104,6 +104,10 @@ p a, p a:visited {
     color:#333;
     text-decoration:none;
 }
-.widgets {
-    margin-top:-50px;
+#widgets{
+        margin-top:-50px;
+}
+.twtr-doc, .twtr-hd {
+    text-shadow:none;
+    -moz-text-shadow:none;
 }
