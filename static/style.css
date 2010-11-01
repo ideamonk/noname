@@ -104,3 +104,6 @@ p a, p a:visited {
     color:#333;
     text-decoration:none;
 }
+.widgets {
+    margin-top:-50px;
+}
