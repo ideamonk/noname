@@ -107,7 +107,7 @@ p a, p a:visited {
 #widgets{
         margin-top:-50px;
 }
-.twtr-doc, .twtr-hd {
+.twtr-doc, .twtr-hd , .twtr-hd h3, twtr-hd h4{
     text-shadow:none;
     -moz-text-shadow:none;
 }
